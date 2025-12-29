@@ -1,0 +1,94 @@
+/* checkout.css: Main styles for section */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5ece5;
+    color: #4e342e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #5d4037;
+    margin-bottom: 20px;
+}
+form {
+    background-color: #fff8f3;
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+label {
+    margin: 15px 0 5px;
+    font-weight: bold;
+    display: block;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccb4a3;
+    font-size: 15px;
+    background-color: #fff;
+}
+input:focus, textarea:focus {
+    border-color: #8d6e63;
+    outline: none;
+}
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+table, th, td {
+    border: 1px solid #d7ccc8;
+}
+th {
+    background-color: #6d4c41;
+    color: #ffffff;
+    padding: 14px;
+}
+td {
+    padding: 12px;
+    text-align: center;
+}
+img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.total-row {
+    font-weight: bold;
+    background-color: #f1e4dc;
+}
+.submit-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.submit-btn input {
+    background-color: #8d6e63;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.submit-btn input:hover {
+    background-color: #6d4c41;
+}
+/* ✅ Tablet */@media(max-width:1024px){form{width:95%;padding:25px}table{font-size:14px}img{width:70px;height:70px}}
+/* ✅ mobile */@media(max-width:768px){h1,h2{font-size:24px;text-align:center}form{width:100%;padding:20px}table{display:block;overflow-x:auto;white-space:nowrap;font-size:13px}td,th{padding:10px}img{width:60px;height:60px}.submit-btn input{width:100%;max-width:250px;font-size:16px;padding:12px}}

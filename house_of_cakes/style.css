@@ -1,0 +1,374 @@
+/* style.css: Main styles for section */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600&family=Playfair+Display:wght@500;700&display=swap');
+
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+padding:0;
+background-color:#f9f5eb;
+color:#3b2c1e;
+}
+
+header{
+background-color:#5e3e2a;
+padding:20px 0;
+text-align:center;
+}
+
+.navbar h1{
+font-size:44px;
+margin:0;
+color:#fff7ec;
+font-family:'Playfair Display',serif;
+letter-spacing:1px;
+}
+
+.navbar nav ul{
+list-style:none;
+padding:0;
+margin:15px 0 0;
+}
+
+.navbar nav ul li{
+display:inline;
+margin:0 15px;
+}
+
+.navbar nav ul li a{
+text-decoration:none;
+color:#f9f5eb;
+font-size:20px;
+font-weight:600;
+transition:color 0.3s ease;
+}
+
+.navbar nav ul li a:hover{
+color:#ffc285;
+}
+
+.hero{
+background-color:#f9f5eb;
+padding:70px 20px;
+text-align:center;
+}
+
+.hero .cake-icon{
+font-size:90px;
+color:#5e3e2a;
+}
+
+.hero h1{
+font-size:55px;
+margin:20px 0 10px;
+color:#5e3e2a;
+font-family:'Playfair Display',serif;
+}
+
+.hero .tagline{
+font-size:24px;
+font-style:italic;
+color:#543c2b;
+}
+
+.hero .intro-text{
+font-size:20px;
+margin-top:20px;
+font-family:'Lora',serif;
+}
+
+.hero .cta-button{
+background-color:#c37f43;
+color:#fff;
+padding:12px 25px;
+font-size:20px;
+border-radius:30px;
+font-weight:600;
+text-decoration:none;
+display:inline-block;
+transition:background-color 0.3s ease;
+}
+
+.hero .cta-button:hover{
+background-color:#a56e3a;
+}
+
+.featured-cakes{
+padding:60px 20px;
+background-color:#f9f5eb;
+text-align:center;
+}
+
+.featured-cakes h2{
+font-size:40px;
+margin-bottom:40px;
+font-family:'Playfair Display',serif;
+color:#5e3e2a;
+}
+
+.cakes-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.cake-item{
+background:#fff;
+border-radius:12px;
+width:260px;
+padding:20px;
+box-shadow:0px 6px 10px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+}
+
+.cake-item img{
+width:100%;
+border-radius:12px;
+}
+
+.cake-item h3{
+font-family:'Lora',serif;
+font-size:24px;
+margin:10px 0;
+color:#5e3e2a;
+}
+
+.cake-item p{
+font-size:18px;
+color:#c37f43;
+}
+
+.cake-item:hover{
+transform:scale(1.05);
+}
+
+.testimonials{
+background-color:#f9f5eb;
+padding:60px 20px;
+text-align:center;
+}
+
+.testimonials h2{
+font-size:40px;
+margin-bottom:30px;
+font-family:'Playfair Display',serif;
+color:#5e3e2a;
+}
+
+.testimonial-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.testimonial-item{
+background:#fff;
+padding:20px;
+border-radius:12px;
+width:260px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+.testimonial-item p{
+font-size:18px;
+font-family:'Lora',serif;
+}
+
+.customer-name{
+font-weight:bold;
+font-size:18px;
+color:#c37f43;
+}
+
+.why-us-section{
+background-color:#f9f5eb;
+padding:70px 20px;
+text-align:center;
+}
+
+.why-us-section .why-icon{
+font-size:90px;
+color:#5e3e2a;
+}
+
+.why-us-section h2{
+font-size:55px;
+margin:20px 0 10px;
+color:#5e3e2a;
+font-family:'Playfair Display',serif;
+}
+
+.why-us-section .tagline{
+font-size:24px;
+font-style:italic;
+color:#543c2b;
+}
+
+.why-us-section .intro-text{
+font-size:20px;
+margin-top:20px;
+font-family:'Lora',serif;
+}
+
+.why-us-section .cta-button{
+background-color:#c37f43;
+color:#fff;
+padding:12px 25px;
+font-size:20px;
+border-radius:30px;
+font-weight:600;
+text-decoration:none;
+display:inline-block;
+transition:background-color 0.3s ease;
+}
+
+.why-us-section .cta-button:hover{
+background-color:#a56e3a;
+}
+
+.flavor-trail,.sweet-facts{
+background-color:#f9f5eb;
+padding:50px 20px;
+text-align:center;
+}
+
+.flavor-trail h2,.sweet-facts h2{
+font-size:35px;
+color:#5e3e2a;
+font-family:'Playfair Display',serif;
+}
+
+.trail-scroll,.fact-scroll{
+display:flex;
+gap:20px;
+overflow-x:auto;
+padding-top:20px;
+scroll-behavior:smooth;
+}
+
+.flavor,.fact{
+background:#fff;
+padding:20px;
+border-radius:10px;
+font-size:20px;
+min-width:260px;
+box-shadow:0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cake-quiz{
+background-color:#f9f5eb;
+padding:60px 20px;
+text-align:center;
+}
+
+.cake-quiz h2{
+font-size:40px;
+color:#5e3e2a;
+font-family:'Playfair Display',serif;
+}
+
+.cake-quiz .quiz{
+background-color:#fff;
+display:inline-block;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 10px rgba(0,0,0,0.1);
+}
+
+.cake-quiz label{
+font-size:20px;
+font-family:'Poppins',sans-serif;
+}
+
+.cake-quiz select{
+padding:12px;
+margin-top:12px;
+font-size:18px;
+border-radius:5px;
+}
+
+.cake-quiz button{
+background-color:#c37f43;
+color:#fff;
+padding:12px 25px;
+font-size:20px;
+border-radius:30px;
+border:none;
+margin-top:18px;
+cursor:pointer;
+font-weight:600;
+}
+
+.cake-quiz button:hover{
+background-color:#a56e3a;
+}
+
+#cakeResultQuiz{
+margin-top:20px;
+font-size:24px;
+font-weight:bold;
+color:#5e3e2a;
+}
+
+footer{
+background-color:#5e3e2a;
+color:#f9f5eb;
+text-align:center;
+padding:40px 20px;
+}
+
+.footer-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+gap:20px;
+}
+
+.footer-left,.footer-right{
+flex:1;
+min-width:250px;
+}
+
+.footer-left p{
+font-size:18px;
+font-family:'Lora',serif;
+}
+
+.footer-right h2{
+font-size:32px;
+font-family:'Playfair Display',serif;
+}
+
+.social-icons a{
+font-size:26px;
+margin:0 10px;
+color:#f9f5eb;
+transition:color 0.3s ease;
+}
+
+.social-icons a:hover{
+color:#c37f43;
+}
+
+.footer-bottom{
+margin-top:20px;
+font-size:16px;
+color:#c37f43;
+}
+
+.icon{
+font-size:60px;
+text-align:center;
+margin-bottom:20px;
+}
+
+@media(max-width:768px){
+body{font-size:90%;}
+.cake-item,.testimonial-item{width:220px;}
+}
+
+@media(max-width:480px){
+body{font-size:80%;}
+.cake-item,.testimonial-item{width:90%;}
+}

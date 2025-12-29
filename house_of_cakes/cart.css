@@ -1,0 +1,104 @@
+/* cart.css: Main styles for section */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5eb;
+    color: #4b3f29;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #7f5a3e;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.cart-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+.cart-table th, .cart-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+}
+.cart-table th {
+    background-color: #7f5a3e;
+    color: white;
+}
+.cart-table img {
+    width: 80px;
+    height: auto;
+}
+.grand-total {
+    font-weight: bold;
+}
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+}
+.remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 90%;
+    margin: 30px auto;
+}
+.left-buttons, .right-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.clear-btn {
+    background-color: #8B4513;
+}
+.clear-btn:hover {
+    background-color: #6A2C1D;
+}
+.continue-btn {
+    background-color: #A0522D;
+}
+.continue-btn:hover {
+    background-color: #8B3E2F;
+}
+.checkout-btn {
+    background-color: #D2691E;
+}
+.checkout-btn:hover {
+    background-color: #C85A2A;
+}
+.logout-btn {
+    background-color: #9C6A42;
+}
+.logout-btn:hover {
+    background-color: #7C4F29;
+}
+/* ✅ Tablet */@media(max-width:1024px){h1{font-size:38px}.cart-table{width:100%;font-size:14px}}
+/* ✅ Mobile */@media(max-width:768px){h1{font-size:30px}.cart-table{width:100%;display:block;overflow-x:auto}.action-buttons{flex-direction:column;align-items:center;text-align:center}.left-buttons,.right-buttons{justify-content:center;width:100%}.btn{width:100%;max-width:250px}}
